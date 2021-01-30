@@ -127,8 +127,7 @@ if __name__ == '__main__':
 		download()
 		os.system('cls' if os.name == 'nt' else 'clear')
 		
-                print("\033[44;1mHello subscriberkh\033[00;1m")
-                print("\033[34;1m（\033[35;1m；\033[36;1m￣\033[32;1mェ\033[36;1m￣\033[34;1m）\033[32;1mspam ni bos")
+                print("\033[44;1mHello subscriberku\033[00;1m")
                 print("\033[37;1m[\033[32;1mAuthor:RAIHAN \033[37;1m]")
                 print("\033[37;1m[\033[32;1mMR.404 Developer\033[37;1m]")
 		pil = raw_input("\033[96;1m {\033[95;1m?\033[96;1m}\033[92;1m Pilih Opsi\033[93;1m : ")
