@@ -1,5 +1,5 @@
 # -*- coding UTF-8 -*-
-#  Author : Iqbal Dev
+#  Author : MR.404
 #  Tools : Geli2 Efbeh
 #  Versi : 0.5
 
