@@ -98,9 +98,9 @@ def pro_dev(ival):
 	  	dev_iv = dev.content
 	  	jsl = json.loads(dev_iv)
 	  	if "session_key" in dev_iv:
-	  		print "\033[96;1m  [\033[92;1mSUC\033[96;1m] " +'\033[97;1m'+ iqbal + '\033[96;1m |\033[97;1m '+ iqu
+	  		print "\033[96;1m  [\033[92;1mSUC\033[96;1m] " +'\033[97;1m'+ MR404 + '\033[96;1m |\033[97;1m '+ iqu
   	  	elif "www.facebook.com" in jsl["error_msg"]:
- 			print "\033[96;1m  [\033[92;1mSUC\033[96;1m] " +'\033[97;1m'+ iqbal + '\033[96;1m |\033[92;1m '+ iqu
+ 			print "\033[96;1m  [\033[92;1mSUC\033[96;1m] " +'\033[97;1m'+ MR404 + '\033[96;1m |\033[92;1m '+ iqu
 
 	  	else:
 	  		pass
@@ -126,7 +126,11 @@ if __name__ == '__main__':
 	try:
 		download()
 		os.system('cls' if os.name == 'nt' else 'clear')
-		print baner
+		
+print("\033[44;1mHello subscriberkh\033[00;1m")
+print("\033[34;1m（\033[35;1m；\033[36;1m￣\033[32;1mェ\033[36;1m￣\033[34;1m）\033[32;1mspam ni bos")
+print("\033[37;1m[\033[32;1mAuthor:RAIHAN \033[37;1m]")
+print("\033[37;1m[\033[32;1mMR.404 Developer\033[37;1m]")
 		pil = raw_input("\033[96;1m {\033[95;1m?\033[96;1m}\033[92;1m Pilih Opsi\033[93;1m : ")
 		if pil == '1':
 			brute()
@@ -140,9 +144,9 @@ if __name__ == '__main__':
 
 		elif pil== '3':
 			try:
-				subprocess.check_output(['am', 'start', 'https://youtu.be/QTR6uFF1Ap8'])
+				subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q'])
 			except KeyboardInterrupt:
-				subprocess.check_output(['am', 'start', 'https://youtu.be/QTR6uFF1Ap8'])
+				subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q'])
 			except WindowsError:
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 
@@ -150,12 +154,12 @@ if __name__ == '__main__':
 			try:
 				print " \n\n \033[97;1m        +++[ \033[96;1m Tools Versi "+versi+" \033[97;1m ]+++" 
 				print " \n               \033[93;1m Keunggulan:\n\n   \033[97;1m   Lebih Power Full dibanding yg V.01 \n      bisa mengisi lebih dari 1 password  \n"
-				print " \n\033[95;1m   Silahkan Ikuti Instagram saya \033[96;1m(IqbalDev)"
+				print " \n\033[95;1m   Silahkan subrek channel saya \033[96;1m(MR.404)"
 				raw_input(" \033[97;1m    Tekan Enter Untuk Membuka Instagram..")
-				subprocess.check_output(['am', 'start', 'https://www.instagram.com/iqbaldev/'])
+				subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q'])
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 			except KeyboardInterrupt:
-				subprocess.check_output(['am', 'start', 'https://www.instagram.com/iqbaldev/'])
+				subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q'])
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 			except WindowsError:
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
