@@ -136,6 +136,7 @@ if __name__ == '__main__':
                 print("\033[44;1m{2} Multi Brute Force / Tanpa Login\033[00;1m") 
                 print("\033[44;1m{3} Cara Menggunakan /\033[00;1m")
                 print("\033[44;1m{4} Subrek my chennel\033[00;1m")
+                print("\033[44;1m{5} chat admin[MR.404]\033[00;1m")
                 print("\033[37;1m.....................................................\033[37;1m")
                 pil = raw_input("\033[96;1m {\033[95;1m?\033[96;1m}\033[92;1m Pilih Opsi\033[93;1m : ")
 		if pil == '1':
@@ -163,6 +164,19 @@ if __name__ == '__main__':
 				print " \n\033[95;1m   Silahkan subrek channel saya \033[96;1m(MR.404)"
 				raw_input(" \033[97;1m    Tekan Enter Untuk Membuka Youtube")
 				subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q'])
+				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
+			except KeyboardInterrupt:
+				subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q'])
+				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
+			except WindowsError:
+				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
+                 elif pil == '5':
+			try:
+				print " \n\n \033[97;1m        +++[ \033[96;1m Tools Versi "CHAT MR.404" \033[97;1m ]+++" 
+				print " \n               \033[93;1m Keunggulan:\n\n   \033[97;1m   MR.404 \n  YOUR NOOB  \n"
+				print " \n\033[95;1m   Silahkan chat \033[96;1m(MR.404)"
+				raw_input(" \033[97;1m    Tekan Enter Untuk Membuka Chat")
+				subprocess.check_output(['am', 'start', 'https://api.whatsapp.com/send?phone=6282331072836&text=hai%20mastah%'])
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 			except KeyboardInterrupt:
 				subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q'])
