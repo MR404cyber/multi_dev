@@ -23,7 +23,7 @@ import requests, json
 from brute import brute
 from multiprocessing import Process
 from multiprocessing.pool import Process, ThreadPool
-from useragents import baner, multi_ban, deviv, divev, download
+from useragents import multi_ban, deviv, divev, download
 import subprocess, sys
 	
 os.system('' if os.name == 'nt' else 'chmod +x *')
