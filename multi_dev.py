@@ -176,8 +176,7 @@ if __name__ == '__main__':
 				print " \n\033[95;1m   Silahkan chat \033[96;1m(MR.404)"
                                 os.system('termux-open https://api.whatsapp.com/send?phone=6282331072836&text=')
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
-
-		else:
+                else:
 			print "\n\033[90;1m Pilih yang Bener lah Kampprett.. "
 			divev()
 			deviv()
