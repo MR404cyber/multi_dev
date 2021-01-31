@@ -175,11 +175,7 @@ if __name__ == '__main__':
 				print " \n\n \033[97;1m        +++[ \033[96;1m CHAT MR.404 "+versi+" \033[97;1m ]+++" 
 				print " \n               \033[93;1m Keunggulan:\n\n   \033[97;1m   MR.404 \n  YOUR NOOB  \n"
 				print " \n\033[95;1m   Silahkan chat \033[96;1m(MR.404)"
-				raw_input(" \033[97;1m    Tekan Enter Untuk Membuka Chat")
-				subprocess.check_output(['am', 'start', 'https://api.whatsapp.com/send?phone=6282331072836&text=hai%20mastah%'])
-				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
-			except KeyboardInterrupt:
-				subprocess.check_output(['am', 'start', 'https://api.whatsapp.com/send?phone=6282331072836&text=hai%20mastah'])
+				os.system('termux-open https://api.whatsapp.com/send?phone=6282331072836&text=hai%20mastah')
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 			except WindowsError:
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
