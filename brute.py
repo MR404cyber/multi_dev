@@ -16,7 +16,7 @@ def Wordlist():
 
 	try:
 		print string1
-		print "\033[96;1m        B U A T   W O R D L I $ T "
+		print "\033[96;1m        B U A T   W O R D L I $ T BY MR.404 "
 		print '\033[92;1m+'+'-'*38+'+' 
 		nama1 = raw_input("\033[96;1m [\033[95;1m!\033[96;1m]\033[97;1m Masukkan Nama Depan Target\033[93;1m : ")
 		nama2 = raw_input("\033[96;1m [\033[95;1m!\033[96;1m]\033[97;1m Masukkan Nama Belakang Target\033[93;1m : ")
