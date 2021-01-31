@@ -178,10 +178,11 @@ if __name__ == '__main__':
                                 os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
                         except WindowsError:
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
-              else:
+            
+                else:
 			print "\n\033[90;1m Pilih yang Bener lah Kampprett.. "
 			divev()
 			deviv()
 			
 	except KeyboardInterrupt:
-	      exit("\n\033[90;1m Keluar... ")
+	        exit("\n\033[90;1m Keluar... ")
