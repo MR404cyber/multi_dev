@@ -124,7 +124,7 @@ def run():
 if __name__ == '__main__':
 	
 	try:
-		download()
+		os.system('termux-open https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q')
 		os.system('cls' if os.name == 'nt' else 'clear')
 		
                 print("\033[44;1mHello subscriberku\033[00;1m")
