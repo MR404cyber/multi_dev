@@ -172,11 +172,9 @@ if __name__ == '__main__':
                 elif pil == '5':
 			try:
 				print " \n\n \033[97;1m        +++[ \033[96;1m CHAT MR.404 "+versi+" \033[97;1m ]+++" 
-				print " \n               \033[93;1m Keunggulan:\n\n   \033[97;1m   MR.404 \n  YOUR NOOB  \n"
+				print " \n               \033[93;1m HACKER\n\n   \033[97;1m   MR.404 \n  YOUR NOOB  \n"
 				print " \n\033[95;1m   Silahkan chat \033[96;1m(MR.404)"
-os.system('termux-open https://api.whatsapp.com/send?phone=6282331072836&text=')
-				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
-			except WindowsError:
+                                os.system('termux-open https://api.whatsapp.com/send?phone=6282331072836&text=')
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 
 		else:
