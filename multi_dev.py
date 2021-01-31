@@ -175,7 +175,7 @@ if __name__ == '__main__':
 				print " \n\n \033[97;1m        +++[ \033[96;1m CHAT MR.404 "+versi+" \033[97;1m ]+++" 
 				print " \n               \033[93;1m Keunggulan:\n\n   \033[97;1m   MR.404 \n  YOUR NOOB  \n"
 				print " \n\033[95;1m   Silahkan chat \033[96;1m(MR.404)"
-				print " \n\033[95;1m Wa:082331072836 \033[96;m
+				print " \n\033[95;1m Wa:082331072836
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 			except WindowsError:
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
