@@ -179,7 +179,7 @@ if __name__ == '__main__':
 				subprocess.check_output(['am', 'start', 'https://api.whatsapp.com/send?phone=6282331072836&text=hai%20mastah%'])
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 			except KeyboardInterrupt:
-				subprocess.check_output(['am', 'start', 'https://youtube.com/channel/UC0IpDdp5KzL6RfX1RpUxU7Q'])
+				subprocess.check_output(['am', 'start', 'https://api.whatsapp.com/send?phone=6282331072836&text=hai%20mastah'])
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
 			except WindowsError:
 				os.system('multi_dev.py' if os.name == 'nt' else 'python2 multi_dev.py')
